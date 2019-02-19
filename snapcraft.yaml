@@ -9,7 +9,7 @@ confinement: devmode
 
 parts:
   rgb:
-    plugin: python, - gpio
+    plugin: - gpio
     python-version: python2
     source: .
     requirements: requirements.txt
