@@ -5,7 +5,7 @@ description: >
   rgbd is a led light which can glow upto 7 colours . we are using it to turn automatically without human interaction .
 
 grade: devel
-confinement: devmode
+confinement: strict
 
 parts:
   rgb:
