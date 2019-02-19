@@ -14,4 +14,4 @@ parts:
     install: rm requirements.txt && ls -al
 apps:
   rgb:
-    command: rgb
+    command: bin/python2
