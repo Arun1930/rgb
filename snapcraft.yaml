@@ -10,9 +10,10 @@ confinement: devmode
 parts:
   rgb:
     plugin: python
+           - gpio
     python-version: python2
     source: .
-    
+    importpath: 
 apps:
   rgb:
     command: bin/rgb
