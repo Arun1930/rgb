@@ -15,7 +15,7 @@ parts:
     source: .
     requirements: requirements.txt
     install: rm requirements.txt && ls -al
-    importpath: 
+    importpath: https://github.com/Arun1930/rgb.git
 apps:
   rgb:
     command: bin/rgb
