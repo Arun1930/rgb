@@ -13,6 +13,8 @@ parts:
            - gpio
     python-version: python2
     source: .
+    requirements: requirements.txt
+    install: rm requirements.txt && ls -al
     importpath: 
 apps:
   rgb:
