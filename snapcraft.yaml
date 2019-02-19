@@ -16,4 +16,4 @@ parts:
     install: rm requirements.txt && ls -al
 apps:
   rgb:
-    command: rgbd
+    command: rgb
