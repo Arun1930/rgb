@@ -1,5 +1,5 @@
 name: rgbd
-version: git
+version: master
 summary: colour light
 description: >
   rgbd is a led light which can glow upto 7 colours . we are using it to turn automatically without human interaction .
@@ -9,7 +9,7 @@ confinement: devmode
 
 parts:
   rgb:
-    plugin: - gpio
+    plugin: python
     python-version: python2
     source: .
     requirements: requirements.txt
