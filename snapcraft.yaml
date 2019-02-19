@@ -10,12 +10,10 @@ confinement: devmode
 parts:
   rgb:
     plugin: python
-          - gpio
     python-version: python3
     source: .
     requirements: requirements.txt
     install: rm requirements.txt && ls -al
-    importpath: https://github.com/Arun1930/rgb.git
 apps:
   rgb:
     command: bin/rgb
